@@ -1,6 +1,4 @@
-/**
- * Created by yuluo on 16/8/9.
- */
+
 angular.module('app').controller('indexCtrl', ['$scope', 'getDataServices', 'postDataServices', '$location', function ($scope, getDataServices, postDataServices, $location) {
     // console.log(getDataServices)
     // console.log(postDataServices)

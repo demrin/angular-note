@@ -1,6 +1,4 @@
-/**
- * Created by yuluo on 16/8/9.
- */
+
 angular.module('app').factory('postDataServices',['$http','$q',function($http,$q){
     var dal = {}
     ////新增数据

@@ -1,6 +1,4 @@
-/**
- * Created by yuluo on 16/8/9.
- */
+
 ////定义一个服务器  从服务器端去数据
 angular.module('app').factory('getDataServices',['$http','$q',function($http,$q){
     ////定义一个空对象  用于返回

@@ -1,6 +1,4 @@
-/**
- * Created by yuluo on 16/8/9.
- */
+
 angular.module('app').controller('editorCtrl', ['$scope', '$routeParams', 'getDataServices', 'postDataServices','$location', function ($scope, $routeParams, getDataServices, postDataServices,$location) {
     $scope.data = {}
     if ($routeParams.id) {////修改

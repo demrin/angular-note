@@ -1,6 +1,3 @@
-/**
- * Created by yuluo on 16/8/9.
- */
 
 /**
  * 在安装js文件的时候 文件名叫 angular-xxx.js

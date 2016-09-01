@@ -17,7 +17,7 @@ app.set('view engine', 'html');
 ////把客户端请求的数据进行格式化  格式化为js对象
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-////设置格式化cookie数据   此项目未用到
+////设置格式化cookie数据   此处未使用
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
