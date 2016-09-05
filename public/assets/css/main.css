@@ -120,6 +120,8 @@ aside p{
     border-color: rgb(238,151,20);
 }
 form{
+    background: url(../images/xly.jpg);
+    background-size: 150%;
     margin: auto;
     width: 300px;
     border: 1px solid #000;
@@ -139,6 +141,7 @@ form input,form textarea{
     font-size: 0.9rem;
     font-family: 微软雅黑;
     resize: none;
+    opacity:0.35;
 }
 form input[type=submit]{
     margin-top: 15px;
